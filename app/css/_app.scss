@@ -1386,11 +1386,11 @@ header.toolbar {
 	.logo {
 		height: 100%;
 		flex: 0 0 140px;
-		background: url(/images/logo.svg) center/100px no-repeat;
+		background: url(/images/Googlelogo.svg) center/100px no-repeat;
 	}
 
 	.dark & .logo {
-		background-image: url(/images/logo_light.svg);
+		background-image: url(/images/Googlelogo.svg);
 	}
 
 	.links {
