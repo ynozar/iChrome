@@ -10,8 +10,8 @@ define(["lodash", "jquery", "backbone", "browser/api", "fbanalytics", "i18n/i18n
 	var API_HOST = "https://api.ichro.me";
 
 	var Auth = Backbone.Model.extend({
-		isPro: false,
-		adFree: false,
+		isPro: true,
+		adFree: true,
 		isSignedIn: false,
 
 		initialize: function() {
